@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amnesty Coffee</title>
+  <link rel="stylesheet" href="/scss/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container my-5">
+    <nav class="navbar navbar-expand-lg bg-transparent custom-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/logo.png" alt="Logo">
+          <span>Amnesty Coffee</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="custom-main mw-3">
+      <div class="content-wrapper">
+        <div class="text-wrapper">
+          <h1>Start Your Day With Coffee</h1>
+          <p>Welcome to Amnesty Coffee, the house of specialty coffee! Start your day with the perfect cup of aromatic bliss that will awaken your senses and invigorate your spirit. We're passionate about crafting the finest coffee experience, from the moment the beans are carefully selected to the expertly brewed result that graces your cup. Indulge in the rich flavors and enticing aromas that dance with every sip, taking you on a journey to caffeinated paradise. Whether you're seeking a robust dark roast or a smooth and creamy latte, our dedicated baristas at Amnesty Coffee are here to create your personalized morning ritual. Embrace the art of starting your day with coffee and let Amnesty Coffee be your trusted companion on this delightful caffeine-filled adventure.</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="/assets/icons.png" alt="Coffee Icons">
+        </div>
+      </div>
+      <div class="container-icons custom-icons">
+        <button type="button" class="btn btn-secondary btn-lg">Order Now</button>
+        <a href="https://www.instagram.com/amnestycoffee/" class="social-icon instagram" onclick="window.open(this.href,'_blank'); return false;"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" class="social-icon whatsapp"><i class="fab fa-whatsapp fa-lg"></i></a>
+        <a href="#" class="social-icon facebook"><i class="fab fa-facebook fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+  <div id="products" class="carousel slide mt-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/assets/Cold_Drip.jpg" class="card-img-top" alt="Product 1">
+              <div class="card-body">
+                <h5 class="card-title">Cold Drip</h5>
+                <p class="card-text"> Immerse in the smooth allure of our meticulously brewed cold drip coffee. Crafted with precision, this method captures the essence of premium beans, steeped slowly for hours. The result? A refreshingly rich and balanced coffee with subtle undertones. Awaken your senses with our chilled perfection, offering a uniquely invigorating coffee experience. Elevate your mornings and embrace the art of slow extraction with our signature cold drip coffee."</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/assets/latte.jpg" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">Latte</h5>
+                <p class="card-text">Immerse yourself in the silky sophistication of our latte. Enjoy the harmonious combination of aromatic espresso and steamed milk, creating a velvety smooth and well-rounded beverage. Whether you prefer a classic latte or opt for a flavored variation like vanilla or caramel, each sip delivers a comforting warmth and a delightful balance of flavors. Treat yourself to the comforting embrace of our latte, a true coffee lover's delight</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/assets/latte.jpg" class="card-img-top" alt="Product 3">
+              <div class="card-body">
+                <h5 class="card-title">Cappucino</h5>
+                <p class="card-text">Indulge in the classic elegance of our cappuccino. Delight in the perfect balance of rich espresso, velvety steamed milk, and a luxurious layer of frothed milk. The harmonious blend creates a smooth and creamy texture, topped with a dusting of cocoa or cinnamon for a touch of indulgence. Experience the artistry and flavor of our cappuccino, a timeless favorite that will awaken your senses and satisfy your coffee cravings</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#products" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#products" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+  <script>
+    // Disable smooth scrolling for anchor links with class "nav-link"
+    document.querySelectorAll('a.nav-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href');
+        document.querySelector(targetId).scrollIntoView({ behavior: 'auto' });
+      });
+    });
+  </script>
+</body>
+</html>
